@@ -55,6 +55,7 @@ class _FirstScreenState extends State<FirstScreen> {
                     if (value == '') {
                       return "Text tidak boleh kosong";
                     }
+                    return null;
                   },
                   decoration: InputDecoration(
                     hintText: "name",
@@ -74,6 +75,7 @@ class _FirstScreenState extends State<FirstScreen> {
                     if (value == '') {
                       return "Text tidak boleh kosong";
                     }
+                    return null;
                   },
                   decoration: InputDecoration(
                     hintText: "palindrome",
